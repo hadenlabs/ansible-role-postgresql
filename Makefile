@@ -8,11 +8,11 @@ OS := $(shell uname)
 
 PROJECT := ansible-role-postgresql
 
-PYTHON_VERSION=3.6.4
+PYTHON_VERSION=3.6.5
 PYENV_NAME="${PROJECT}"
 
 # Configuration.
-SHELL := /bin/bash
+SHELL ?=/bin/bash
 ROOT_DIR=$(shell pwd)
 MESSAGE:=🍺️
 MESSAGE_HAPPY:="Done! ${MESSAGE} Now Happy Coding"

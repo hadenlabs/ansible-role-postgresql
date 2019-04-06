@@ -4,9 +4,9 @@ Ansible Role for PostgreSQL
 |Build Status| |GitHub issues| |GitHub license|
 
 :Version: 0.2.0
-:Web: https://github.com/hadenlabs/ansible-role-postgresql
-:Download: http://github.com/hadenlabs/ansible-role-postgresql
-:Source: http://github.com/hadenlabs/ansible-role-postgresql
+:Web: https://github.com/okchaty/ansible-role-postgresql
+:Download: http://github.com/okchaty/ansible-role-postgresql
+:Source: http://github.com/okchaty/ansible-role-postgresql
 :Keywords: ansible-role-postgresql
 
 A role for deploying and configuring
@@ -94,7 +94,7 @@ To install a specific version:
 
     - hosts: servers
       roles:
-         - { role: hadenlabs.postgresql }
+         - { role: okchaty.postgresql }
 
 To make generate backup:
 
@@ -113,7 +113,7 @@ To make generate backup:
 
     - hosts: servers
       roles:
-        - role: hadenlabs.postgresql
+        - role: okchaty.postgresql
            backup_only: yes
 
 Support
@@ -170,14 +170,14 @@ Feel free to contact me to discuss any issues, questions, or comments.
 
 |linkedin| |beacon| |made|
 
-Made with :coffee: and :pizza: by `luis mayta`_ and `hadenlabs`_.
+Made with :coffee: and :pizza: by `luis mayta`_ and `okchaty`_.
 
 .. Links
 .. _`changelog`: CHANGELOG.rst
 .. _`contributors`: AUTHORS
 .. _`contributing`: CONTRIBUTING.rst
 
-.. _`hadenlabs`: https://github.com/hadenlabs
+.. _`okchaty`: https://github.com/okchaty
 .. _`luis mayta`: https://github.com/luismayta
 
 .. _`Github`: https://github.com/luismayta
@@ -188,10 +188,10 @@ Made with :coffee: and :pizza: by `luis mayta`_ and `hadenlabs`_.
 .. _`Website`: http://luismayta.github.io
 .. _`PGP`: https://keybase.io/luismayta/pgp_keys.asc
 
-.. |Build Status| image:: https://travis-ci.org/hadenlabs/ansible-role-postgresql.svg
-   :target: https://travis-ci.org/hadenlabs/ansible-role-postgresql
-.. |GitHub issues| image:: https://img.shields.io/github/issues/hadenlabs/ansible-role-postgresql.svg
-   :target: https://github.com/hadenlabs/ansible-role-postgresql/issues
+.. |Build Status| image:: https://travis-ci.org/okchaty/ansible-role-postgresql.svg
+   :target: https://travis-ci.org/okchaty/ansible-role-postgresql
+.. |GitHub issues| image:: https://img.shields.io/github/issues/okchaty/ansible-role-postgresql.svg
+   :target: https://github.com/okchaty/ansible-role-postgresql/issues
 .. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
    :target: LICENSE
 
@@ -200,18 +200,18 @@ Made with :coffee: and :pizza: by `luis mayta`_ and `hadenlabs`_.
    :target: https://github.com/luismayta
 
 .. Badges for images hub docker
-.. |MicroBadger| image:: https://images.microbadger.com/badges/image/hadenlabs/python.svg
-   :target: http://microbadger.com/images/hadenlabs/python
-.. |Docker Stars| image:: https://img.shields.io/docker/stars/hadenlabs/python.svg?style=flat-square
-   :target: https://hub.docker.com/r/hadenlabs/python
-.. |Docker Pulls| image:: https://img.shields.io/docker/pulls/hadenlabs/python.svg?style=flat-square
-   :target: https://hub.docker.com/r/hadenlabs/python
+.. |MicroBadger| image:: https://images.microbadger.com/badges/image/okchaty/python.svg
+   :target: http://microbadger.com/images/okchaty/python
+.. |Docker Stars| image:: https://img.shields.io/docker/stars/okchaty/python.svg?style=flat-square
+   :target: https://hub.docker.com/r/okchaty/python
+.. |Docker Pulls| image:: https://img.shields.io/docker/pulls/okchaty/python.svg?style=flat-square
+   :target: https://hub.docker.com/r/okchaty/python
 
 .. Footer:
 .. |linkedin| image:: http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png
    :target: http://pe.linkedin.com/in/luismayta
-.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/hadenlabs/ansible-role-postgresql/readme
-   :target: https://github.com/hadenlabs/ansible-role-postgresql
+.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/okchaty/ansible-role-postgresql/readme
+   :target: https://github.com/okchaty/ansible-role-postgresql
 .. |made| image:: https://img.shields.io/badge/Made%20with-Zsh-1f425f.svg
    :target: http://www.zsh.org
 
