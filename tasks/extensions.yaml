@@ -8,6 +8,7 @@
   when:
     - not postgresql_dev_headers
   become: true
+  become_user: root
   package:
     name: libpq-dev
     state: present
@@ -24,6 +25,7 @@
 - name: Install PostgreSQL contribs
   when: postgresql_contrib
   become: true
+  become_user: root
   apt:
     name: "postgresql-contrib-{{ postgresql_version }}"
   notify: restart postgresql
@@ -38,6 +40,7 @@
 
 - name: Add postgis extensions
   become: true
+  become_user: root
   package:
     name: "{{ item }}"
     state: present
